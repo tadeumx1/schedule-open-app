@@ -1,0 +1,32 @@
+{
+  "scheduleRestaurantWeekData": {
+    "monday": [
+      { "type": "open", "value": 36000 },
+      { "type": "close", "value": 64800 }
+    ],
+    "tuesday": [
+      { "type": "open", "value": 36000 },
+      { "type": "close", "value": 64800 }
+    ],
+    "wednesday": [
+      { "type": "open", "value": 36000 },
+      { "type": "close", "value": 64800 }
+    ],
+    "thursday": [
+      { "type": "open", "value": 36000 },
+      { "type": "close", "value": 64800 }
+    ],
+    "friday": [
+      { "type": "open", "value": 36000 },
+      { "type": "close", "value": 64800 }
+    ],
+    "saturday": [
+      { "type": "open", "value": 36000 },
+      { "type": "close", "value": 64800 }
+    ],
+    "sunday": [
+      { "type": "open", "value": 43200 },
+      { "type": "close", "value": 75600 }
+    ]
+  }
+}

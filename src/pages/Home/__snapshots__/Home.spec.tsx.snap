@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component should render screen correct 1`] = `
+<RNCSafeAreaView
+  edges={
+    [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#eeeeee",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 5,
+          "elevation": 5,
+          "maxWidth": 350,
+          "minWidth": 300,
+          "paddingBottom": 20,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 20,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.7,
+          "shadowRadius": 1,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+        ]
+      }
+    >
+      <Text />
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBold",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "marginBottom": 5,
+              "marginLeft": 0,
+              "marginRight": 0,
+              "marginTop": 5,
+            },
+          ]
+        }
+      >
+        Opening hours
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 0.5,
+            "borderColor": "#202125",
+            "marginBottom": 5,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#202125",
+                "fontFamily": "RobotoBlack",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginRight": 10,
+              },
+            ]
+          }
+        >
+          Monday
+        </Text>
+        <Text
+          style={
+            [
+              {
+                "color": "#5bcb02",
+                "fontFamily": "System",
+                "fontSize": 12,
+                "fontWeight": "bold",
+              },
+            ]
+          }
+        >
+          TODAY
+        </Text>
+      </View>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        10 AM - 6 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBlack",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        Tuesday
+      </Text>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        10 AM - 6 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBlack",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        Wednesday
+      </Text>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        10 AM - 6 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBlack",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        Thursday
+      </Text>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        10 AM - 6 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBlack",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        Friday
+      </Text>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        10 AM - 6 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBlack",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        Saturday
+      </Text>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        10 AM - 6 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingBottom": 5,
+            "paddingLeft": 5,
+            "paddingRight": 5,
+            "paddingTop": 5,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "RobotoBlack",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        Sunday
+      </Text>
+      <Text
+        closed={false}
+        style={
+          [
+            {
+              "color": "#202125",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "marginRight": 10,
+            },
+          ]
+        }
+      >
+        12 PM - 9 PM
+      </Text>
+    </View>
+    <View
+      style={
+        [
+          {
+            "borderBottomWidth": 1,
+            "borderColor": "#eeeeee",
+          },
+        ]
+      }
+    />
+  </View>
+</RNCSafeAreaView>
+`;
