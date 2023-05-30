@@ -32,7 +32,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-### What ?
+### What
 
 The schedule-open-app is an app that is a challenge for a React Native position at Wolt
 
