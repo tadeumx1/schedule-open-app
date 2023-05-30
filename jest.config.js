@@ -21,6 +21,8 @@ module.exports = {
     '!src/assets/**/*',
     '!src/config/ReactotronConfig.ts',
     '!src/services/index.ts*',
+    '!src/services/modules/**/index.ts*',
+    '!src/services/client/index.ts*',
     '!src/routes/**/*',
     '!src/routes.tsx*',
     '!src/main/**/*',

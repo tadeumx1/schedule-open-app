@@ -27,7 +27,7 @@ const AppRouter = () => {
     RobotoLightItalic: require('./assets/fonts/Roboto-LightItalic.ttf'),
     RobotoMedium: require('./assets/fonts/Roboto-Medium.ttf'),
     RobotoMediumItalic: require('./assets/fonts/Roboto-MediumItalic.ttf'),
-    RobotoRegular: require('./assets/fonts/Roboto-Regular.ttf'),
+    Roboto: require('./assets/fonts/Roboto-Regular.ttf'),
     RobotoThin: require('./assets/fonts/Roboto-Thin.ttf'),
     RobotoThinItalic: require('./assets/fonts/Roboto-ThinItalic.ttf'),
   });

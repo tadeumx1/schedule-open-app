@@ -3,6 +3,6 @@
   "compilerOptions": {
     "module": "esnext",
     "strict": true,
-    "types": ["react-native", "jest", "styled-components-react-native"]
+    "types": ["react-native", "node", "jest", "styled-components-react-native"]
   }
 }

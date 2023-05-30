@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useGetRestaurantScheduleData } from '../../services/modules/time-restaurant';
 import {
   ScheduleResponse,
@@ -132,11 +132,6 @@ export const useHome = () => {
     // It is changing the hours from 24 format to 12 hours format
     const formattedHours = hours % 12 === 0 ? 12 : hours % 12;
 
-    // This is used when the restaurant is closed
-    if (timeSeconds === 0) {
-      return String(0);
-    }
-
     return `${formattedHours.toString()} ${period}`;
   };
 
@@ -218,7 +213,8 @@ export const useHome = () => {
 
   return {
     hourRestaurantData,
-    error: isError,
     isLoading,
+    error: isError,
+    isSuccess,
   };
 };

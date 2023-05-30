@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 import { StyleSheet } from 'react-native';
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 interface TitleOpenTimeProps {
   closed?: boolean;
@@ -30,12 +31,20 @@ export const ContainerTitle = styled.View`
   align-items: center;
 `;
 
+export const TitleScheduleIcon = styled(MaterialIcons).attrs({
+  name: 'schedule',
+  size: 25,
+  color: '#A1A2A4',
+})`
+  margin-top: 3px;
+  margin-right: 5px;
+`;
+
 export const Title = styled.Text`
   font-family: 'RobotoBold';
   color: #202125;
   font-size: 24px;
   margin: 5px 0px;
-  font-weight: bold;
 `;
 
 export const TitleDivider = styled.View`
@@ -50,15 +59,14 @@ export const DescriptionHourDivider = styled.View`
 `;
 
 export const TitleDay = styled.Text`
-  font-family: 'RobotoBlack';
+  font-family: 'RobotoMedium';
   color: #202125;
   font-size: 16px;
   margin-right: 10px;
-  font-weight: bold;
 `;
 
 export const TitleOpenTime = styled.Text<TitleOpenTimeProps>`
-  font-family: System;
+  font-family: 'Roboto';
   color: #202125;
   font-size: 16px;
   margin-right: 10px;
@@ -70,10 +78,6 @@ export const TitleOpenTime = styled.Text<TitleOpenTimeProps>`
   `};
 `;
 
-export const TitleOpenDescription = styled.Text``;
-
-export const TitleHour = styled.Text``;
-
 export const ContainerTodayHour = styled.View`
   flex-direction: row;
   justify-content: space-between;
@@ -81,10 +85,9 @@ export const ContainerTodayHour = styled.View`
 `;
 
 export const DescriptionHour = styled.Text`
-  font-family: System;
+  font-family: 'RobotoBold';
   color: #5bcb02;
   font-size: 12px;
-  font-weight: bold;
 `;
 
 export const LoadingHourData = styled.ActivityIndicator.attrs({

@@ -1,9 +1,9 @@
 import React from 'react';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 import {
   ContainerHour,
   ContainerDayHour,
+  TitleScheduleIcon,
   ContainerTitle,
   Title,
   TitleDivider,
@@ -30,23 +30,15 @@ const HourCard = ({ hourRestaurantData }: HourCardProps) => {
   const dayWeekName = dayWeek.split(',')[0];
 
   const handleDayName = (dayName: string): string => {
-    if (dayName) {
-      const dayNameFormat = dayName.charAt(0).toUpperCase() + dayName.slice(1);
+    const dayNameFormat = dayName.charAt(0).toUpperCase() + dayName.slice(1);
 
-      return dayNameFormat;
-    }
-
-    return dayName;
+    return dayNameFormat;
   };
 
   const handleOpenHour = (itemDayHour: DayRestaurantWeekFormat): string => {
     if (itemDayHour.dayTime.length > 1) {
       return itemDayHour.dayTime
         .map((time) => {
-          if (time.open === 'Closed' && time.closed === 'Closed') {
-            return 'Closed';
-          }
-
           return `${time.open} - ${time.closed}`;
         })
         .join(', ');
@@ -66,7 +58,7 @@ const HourCard = ({ hourRestaurantData }: HourCardProps) => {
     <React.Fragment>
       <ContainerHour>
         <ContainerTitle>
-          <MaterialIcons name="schedule" size={25} color="#A1A2A4" />
+          <TitleScheduleIcon />
           <Title>Opening hours</Title>
         </ContainerTitle>
         <TitleDivider />

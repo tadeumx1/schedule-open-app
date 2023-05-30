@@ -65,7 +65,6 @@ exports[`Home Component should render screen correct 1`] = `
               "color": "#202125",
               "fontFamily": "RobotoBold",
               "fontSize": 24,
-              "fontWeight": "bold",
               "marginBottom": 5,
               "marginLeft": 0,
               "marginRight": 0,
@@ -119,9 +118,8 @@ exports[`Home Component should render screen correct 1`] = `
             [
               {
                 "color": "#202125",
-                "fontFamily": "RobotoBlack",
+                "fontFamily": "RobotoMedium",
                 "fontSize": 16,
-                "fontWeight": "bold",
                 "marginRight": 10,
               },
             ]
@@ -134,9 +132,8 @@ exports[`Home Component should render screen correct 1`] = `
             [
               {
                 "color": "#5bcb02",
-                "fontFamily": "System",
+                "fontFamily": "RobotoBold",
                 "fontSize": 12,
-                "fontWeight": "bold",
               },
             ]
           }
@@ -150,7 +147,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },
@@ -190,9 +187,8 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "RobotoBlack",
+              "fontFamily": "RobotoMedium",
               "fontSize": 16,
-              "fontWeight": "bold",
               "marginRight": 10,
             },
           ]
@@ -206,7 +202,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },
@@ -246,9 +242,8 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "RobotoBlack",
+              "fontFamily": "RobotoMedium",
               "fontSize": 16,
-              "fontWeight": "bold",
               "marginRight": 10,
             },
           ]
@@ -262,7 +257,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },
@@ -302,9 +297,8 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "RobotoBlack",
+              "fontFamily": "RobotoMedium",
               "fontSize": 16,
-              "fontWeight": "bold",
               "marginRight": 10,
             },
           ]
@@ -318,7 +312,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },
@@ -358,9 +352,8 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "RobotoBlack",
+              "fontFamily": "RobotoMedium",
               "fontSize": 16,
-              "fontWeight": "bold",
               "marginRight": 10,
             },
           ]
@@ -374,7 +367,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },
@@ -414,9 +407,8 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "RobotoBlack",
+              "fontFamily": "RobotoMedium",
               "fontSize": 16,
-              "fontWeight": "bold",
               "marginRight": 10,
             },
           ]
@@ -430,7 +422,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },
@@ -470,9 +462,8 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "RobotoBlack",
+              "fontFamily": "RobotoMedium",
               "fontSize": 16,
-              "fontWeight": "bold",
               "marginRight": 10,
             },
           ]
@@ -486,7 +477,7 @@ exports[`Home Component should render screen correct 1`] = `
           [
             {
               "color": "#202125",
-              "fontFamily": "System",
+              "fontFamily": "Roboto",
               "fontSize": 16,
               "marginRight": 10,
             },

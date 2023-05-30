@@ -6,15 +6,15 @@ import { Container, TitleErrorDescription, LoadingHourData } from './styles';
 import HourCard from '../../components/HourCard';
 
 const Home = () => {
-  const { hourRestaurantData, error, isLoading } = useHome();
+  const { hourRestaurantData, isLoading, error, isSuccess } = useHome();
 
   return (
     <Container>
-      {isLoading && <LoadingHourData />}
+      {isLoading && <LoadingHourData testID="loading-restaurant-hour" />}
       {error && (
         <TitleErrorDescription>Something wrong occurred</TitleErrorDescription>
       )}
-      <HourCard hourRestaurantData={hourRestaurantData} />
+      {isSuccess && <HourCard hourRestaurantData={hourRestaurantData} />}
     </Container>
   );
 };

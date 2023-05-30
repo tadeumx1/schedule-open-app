@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "coverage": "jest --coverage --watchAll=false",
+    "server": "./node_modules/.bin/json-server --watch src/mock/db.json",
     "test": "jest"
   },
   "dependencies": {
@@ -29,9 +30,11 @@
     "@babel/core": "^7.20.0",
     "@react-native-community/eslint-config": "^3.2.0",
     "@testing-library/jest-native": "^5.4.2",
+    "@testing-library/react-hooks": "^8.0.1",
     "@testing-library/react-native": "^12.1.2",
     "@tsconfig/react-native": "^3.0.2",
     "@types/jest": "^29.5.1",
+    "@types/node": "^20.2.5",
     "@types/react": "~18.0.14",
     "@types/react-test-renderer": "^18.0.0",
     "@types/styled-components-react-native": "^5.2.1",
